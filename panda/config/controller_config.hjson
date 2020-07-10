@@ -1,0 +1,10 @@
+/* Default values for controller config parameters */
+{
+    // Joint Velocity controller
+    "joint_velocity":
+    {
+        "control_range": [1, 1, 1, 1, 1, 1, 1],
+        "kv": [8.0, 7.0, 6.0, 4.0, 2.0, 0.5, 0.1],
+        "interpolation": "linear"
+    }
+}

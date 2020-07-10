@@ -1,0 +1,14 @@
+<mujoco model="base">
+  <asset>
+    <mesh file="meshes/base.stl" scale="0.02 0.02 0.02" name="base_mesh"/>
+    <texture file="../textures/metal.png" name="tex-metal"/>
+    <material name="metal" reflectance="0.7" texrepeat="1 1" texture="tex-metal" texuniform="true"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision" pos="0 0.1 0.82" quat="1 0 0 0">
+        <geom pos="0 0 0" mesh="base_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="1500" friction="0.95 0.3 0.1" material="metal" group="1" condim="4"/>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>
