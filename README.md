@@ -2,7 +2,7 @@
 The adapted policy can grasp the moving cube in 30 mints of retraining.
 ![](adapted_policy.gif)
 
-Before, het base grasping policy trained on a static cube is not able to grasp the moving cube.
+Before, the base grasping policy trained on a static cube is not able to grasp the moving cube.
 ![](base_policy.gif)
 
 # Simulation
