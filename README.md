@@ -1,3 +1,10 @@
+# New Experiment (Dynamic Enviornment)
+The adapted policy can grasp the moving cube in 30 mints of retraining.
+![](adapted_policy.gif)
+
+Before, het base grasping policy trained on a static cube is not able to grasp the moving cube.
+![](base_policy.gif)
+
 # Simulation
 [![Video](https://img.youtube.com/vi/aX55Zc2XMTE/maxres3.jpg)](https://www.youtube.com/watch?v=aX55Zc2XMTE)
 
