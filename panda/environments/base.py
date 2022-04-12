@@ -2,11 +2,11 @@ from collections import OrderedDict
 
 from mujoco_py import MjSim, MjRenderContextOffscreen
 from mujoco_py import load_model_from_xml
-
+from mujoco_py import GlfwContext
 import numpy as np
 from utils import MujocoPyRenderer
 
-
+GlfwContext(offscreen=True)
 REGISTERED_ENVS = {}
 
 def register_env(target_class):
