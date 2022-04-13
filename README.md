@@ -1,3 +1,10 @@
+# Intelligent-Task-Learning
+The Repository for the _Autonomous Robots 2022 Journal article:_
+
+"[Continuous control actions learning and adaptation for robotic manipulation through reinforcement learning](https://link.springer.com/article/10.1007/s10514-022-10034-z)" 
+
+This contains a python toolkit for learning a grasping task with Franka Emika Panda Robot. The robot can be trained to grasp the cube, avoid obstacles and learn to manage redundancy using modern Reinforcement Learning algorithms of [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) and [Sof Actor-Critic (SAC)](https://arxiv.org/abs/1812.05905). It is powered by [MuJoCo physics engine](http://www.mujoco.org/) 
+
 # New Experiment (Dynamic Enviornment)
 The adapted policy can grasp the moving cube in 30 mints of retraining.
 ![](adapted_policy.gif)
@@ -10,9 +17,6 @@ Before, the base grasping policy trained on a static cube is not able to grasp t
 
 # Experimental validation
 [![Video](https://github.com/Asad-Shahid/Intelligent-Task-Learning/blob/master/exp_image.png)](https://drive.google.com/file/d/1zlS-_HIWMlIAvrxqGNGRyMbuDfQrws8z/view)
-
-# Intelligent-Task-Learning
-Panda is a python toolkit for learning a grasping task with Franka Emika Panda Robot. The robot can be trained to grasp the cube, avoid obstacles and learn to manage redundancy using modern Reinforcement Learning algorithms of [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) and [Sof Actor-Critic (SAC)](https://arxiv.org/abs/1812.05905). It is powered by [MuJoCo physics engine](http://www.mujoco.org/) 
 
 ## Notes
 More details about real world experiments and videos to follow
