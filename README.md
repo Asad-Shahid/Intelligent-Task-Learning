@@ -3,7 +3,20 @@ The Repository for the _Autonomous Robots 2022 Journal article:_
 
 "[Continuous control actions learning and adaptation for robotic manipulation through reinforcement learning](https://link.springer.com/article/10.1007/s10514-022-10034-z)" 
 
-This contains a python toolkit for learning a grasping task with Franka Emika Panda Robot. The robot can be trained to grasp the cube, avoid obstacles and learn to manage redundancy using modern Reinforcement Learning algorithms of [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) and [Sof Actor-Critic (SAC)](https://arxiv.org/abs/1812.05905). It is powered by [MuJoCo physics engine](http://www.mujoco.org/) 
+This contains a python toolkit for learning a grasping task with Franka Emika Panda Robot. The robot can be trained to grasp the cube, avoid obstacles and learn to manage redundancy using modern Reinforcement Learning algorithms of [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) and [Soft Actor-Critic (SAC)](https://arxiv.org/abs/1812.05905). It is powered by [MuJoCo physics engine](http://www.mujoco.org/) 
+
+
+# How to cite
+```
+@article{shahid2022continuous,
+  title={Continuous control actions learning and adaptation for robotic manipulation through reinforcement learning},
+  author={Shahid, Asad Ali and Piga, Dario and Braghin, Francesco and Roveda, Loris},
+  journal={Autonomous Robots},
+  pages={1--16},
+  year={2022},
+  publisher={Springer}
+}
+```
 
 # New Experiment (Dynamic Enviornment)
 The adapted policy can grasp the moving cube in 30 mints of retraining.
@@ -12,14 +25,12 @@ The adapted policy can grasp the moving cube in 30 mints of retraining.
 Before, the base grasping policy trained on a static cube is not able to grasp the moving cube.
 ![](base_policy.gif)
 
-# Simulation
+# Simulation Video
 [![Video](https://img.youtube.com/vi/aX55Zc2XMTE/maxres3.jpg)](https://www.youtube.com/watch?v=aX55Zc2XMTE)
 
 # Experimental validation
 [![Video](https://github.com/Asad-Shahid/Intelligent-Task-Learning/blob/master/exp_image.png)](https://drive.google.com/file/d/1zlS-_HIWMlIAvrxqGNGRyMbuDfQrws8z/view)
 
-## Notes
-More details about real world experiments and videos to follow
 
 ## Installation
 
