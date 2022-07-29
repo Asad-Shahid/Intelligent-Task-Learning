@@ -37,7 +37,7 @@ def argparser():
     parser.add_argument('--num_batches', type=int, default=60, help='the times to update the network per epoch')
     parser.add_argument('--batch_size', type=int, default=512, help='the sample batch size')
     parser.add_argument('--max_grad_norm', type=float, default=100)
-    parser.add_argument('--max_global_step', type=int, default=int(3e6))
+    parser.add_argument('--max_global_step', type=int, default=int(1e7))
     parser.add_argument('--gpu', type=int, default=0)
 
     # ppo
