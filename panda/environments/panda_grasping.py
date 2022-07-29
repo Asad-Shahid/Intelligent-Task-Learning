@@ -186,7 +186,7 @@ class PandaGrasp(PandaEnv):
 
         # success reward
         if self._check_success():
-            reward += 2.0
+            reward += 5.0
 
         # stay within joint limits! This is used only in retraining condition
         #if self._check_q_limits():
